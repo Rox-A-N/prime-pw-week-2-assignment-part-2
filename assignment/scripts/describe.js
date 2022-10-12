@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We declare a variable called name and set it to the string 'Dane'
+// We check to see if the name is equal to 'Mary', since it is not we 
+// console.log 'How do you do?'.
 //
 
 //CODE
@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable named secret, and make a variable called code and set it to 123
+// We check if the code equals 123, it does so the variable secret gets a value of 'super' and the code 123
+// is multiplied by 2.  Since the code is not greater than 250, we console.log 'super'
 //
 
 //CODE
@@ -70,9 +70,9 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We set a variable called isStudent to true, another variable called age to 34, and a final variable zip is 
+// set to 55407
+// We check the isStudent variable and as it is true we console.log 'Welcome to Prime!' 
 //
 
 //CODE
@@ -132,6 +132,7 @@ if (number >= 2) {
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
+//FIX - colorOne should be 'blue', and colorTwo should be 'red'.
 let mix = true;
 
 if (mix === true) {
@@ -148,6 +149,7 @@ let temp = 40;
 const time = 4;
 
 if (temp > 39 || time >= 4) {
+  // FIX - instead of ||, the logical operator should be &&
   console.log('throw away the food!');
 }
 */
@@ -161,6 +163,7 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+  // FIX - the syntax says we should be comparing like this: age >= minAge
   console.log('no entry');
 } else {
   console.log('enter');
